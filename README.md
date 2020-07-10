@@ -1,18 +1,30 @@
-# MyFirstApp
+# Angular 10 Cook Book 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.0.
+This is an application created with Angular 10. It creates a cook book with two main features: a recipe book and a shopping list.
+
+The application consist of several components: root, header, shopping list, edit shopping list, recipe list, recipe item and recipe detail.
+
+The models of the app will consist mainly of ingredients and recipes.
+
+The project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.1.
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The development server starts with the command `ng serve` at the terminal. 
+The Angular app can be accessed locally on the browser at the following address `http://localhost:4200/`. 
+The app will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## Generate components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To generate a new component run `ng generate component component-name` at the CLI. 
+It is possible to use the shorthand `ng g c component-name`.
+You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-## Build
+## Build the project
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To build the project run `ng build`. 
+The build version will be stored in the `dist/` directory. 
+Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
